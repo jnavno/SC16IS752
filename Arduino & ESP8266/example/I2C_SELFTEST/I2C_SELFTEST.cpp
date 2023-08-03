@@ -12,7 +12,7 @@ void setup()
     Serial.begin(115200);
     Serial.println("Start testing");
     // UART to Serial Bridge Initialization
-    i2cuart.begin(9600, 9600);               //baudrate setting
+    i2cuart.begin(115200, 115200);               //baudrate setting
     if (i2cuart.ping()!=1) {
         Serial.println("Device not found");
         while(1);
