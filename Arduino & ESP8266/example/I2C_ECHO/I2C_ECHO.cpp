@@ -7,6 +7,10 @@ SC16IS752 i2cuart = SC16IS752(SC16IS750_PROTOCOL_I2C,SC16IS750_ADDRESS_AA);
 #define baudrate_A 9600
 #define baudrate_B 115200
 
+//1.8432Mhz crystal is used for SC16IS752.
+//The maximum transfer speed of SC16IS752 is 1843200/16 = 115,200bps.
+//refer to BAUD_RATE_GENERATOR.cpp
+
 void setup() 
 {
   Serial.begin(115200);
