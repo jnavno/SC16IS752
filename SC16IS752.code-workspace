@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "SC16IS752_tests",
+			"path": "../../../../Documents/PlatformIO/Projects/SC16IS752_tests"
+		}
+	],
+	"settings": {}
+}
